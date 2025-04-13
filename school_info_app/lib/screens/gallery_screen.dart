@@ -176,8 +176,8 @@ class _GalleryScreenState extends State<GalleryScreen> {
       floatingActionButton: FloatingActionButton(
         onPressed: _showImageSourceDialog,
         tooltip: 'Añadir Imagen',
-        child: const Icon(Icons.add_a_photo),
         backgroundColor: Theme.of(context).primaryColor,
+        child: const Icon(Icons.add_a_photo),
       ),
     );
   }
